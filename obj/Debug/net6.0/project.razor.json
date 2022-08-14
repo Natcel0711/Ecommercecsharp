@@ -111,35 +111,35 @@
         }
       },
       {
-        "HashCode": -1610674089,
+        "HashCode": -440058836,
         "Kind": "Components.Component",
-        "Name": "Ecommercecsharp.components.HomeGallery",
+        "Name": "Ecommercecsharp.App",
         "AssemblyName": "Ecommercecsharp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "HomeGallery"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ecommercecsharp.components.HomeGallery"
+          "Common.TypeName": "Ecommercecsharp.App"
         }
       },
       {
-        "HashCode": -1400002638,
+        "HashCode": 1239930857,
         "Kind": "Components.Component",
-        "Name": "Ecommercecsharp.components.HomeGallery",
+        "Name": "Ecommercecsharp.App",
         "AssemblyName": "Ecommercecsharp",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Ecommercecsharp.components.HomeGallery"
+            "TagName": "Ecommercecsharp.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ecommercecsharp.components.HomeGallery",
+          "Common.TypeName": "Ecommercecsharp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -177,6 +177,72 @@
         }
       },
       {
+        "HashCode": -1610674089,
+        "Kind": "Components.Component",
+        "Name": "Ecommercecsharp.components.HomeGallery",
+        "AssemblyName": "Ecommercecsharp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HomeGallery"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ecommercecsharp.components.HomeGallery"
+        }
+      },
+      {
+        "HashCode": -1400002638,
+        "Kind": "Components.Component",
+        "Name": "Ecommercecsharp.components.HomeGallery",
+        "AssemblyName": "Ecommercecsharp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Ecommercecsharp.components.HomeGallery"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ecommercecsharp.components.HomeGallery",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1885455141,
+        "Kind": "Components.Component",
+        "Name": "Ecommercecsharp.components.Footer",
+        "AssemblyName": "Ecommercecsharp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Footer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ecommercecsharp.components.Footer"
+        }
+      },
+      {
+        "HashCode": 1841338569,
+        "Kind": "Components.Component",
+        "Name": "Ecommercecsharp.components.Footer",
+        "AssemblyName": "Ecommercecsharp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Ecommercecsharp.components.Footer"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ecommercecsharp.components.Footer",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 723893810,
         "Kind": "Components.Component",
         "Name": "Ecommercecsharp.components.Nav",
@@ -206,39 +272,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Ecommercecsharp.components.Nav",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -440058836,
-        "Kind": "Components.Component",
-        "Name": "Ecommercecsharp.App",
-        "AssemblyName": "Ecommercecsharp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ecommercecsharp.App"
-        }
-      },
-      {
-        "HashCode": 1239930857,
-        "Kind": "Components.Component",
-        "Name": "Ecommercecsharp.App",
-        "AssemblyName": "Ecommercecsharp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Ecommercecsharp.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ecommercecsharp.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -292,6 +325,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "Ecommercecsharp.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1356111735,
+        "Kind": "Components.Component",
+        "Name": "Ecommercecsharp.Shared.NavMenu",
+        "AssemblyName": "Ecommercecsharp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ecommercecsharp.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": 1674740551,
+        "Kind": "Components.Component",
+        "Name": "Ecommercecsharp.Shared.NavMenu",
+        "AssemblyName": "Ecommercecsharp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Ecommercecsharp.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "Ecommercecsharp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -388,39 +454,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Ecommercecsharp.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1356111735,
-        "Kind": "Components.Component",
-        "Name": "Ecommercecsharp.Shared.NavMenu",
-        "AssemblyName": "Ecommercecsharp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ecommercecsharp.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": 1674740551,
-        "Kind": "Components.Component",
-        "Name": "Ecommercecsharp.Shared.NavMenu",
-        "AssemblyName": "Ecommercecsharp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Ecommercecsharp.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "Ecommercecsharp.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16774,6 +16807,11 @@
       "FilePath": "d:\\code\\Ecommercecsharp\\_Imports.razor",
       "TargetPath": "_Imports.razor",
       "FileKind": "componentImport"
+    },
+    {
+      "FilePath": "d:\\code\\Ecommercecsharp\\components\\Footer.razor",
+      "TargetPath": "components\\Footer.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "d:\\code\\Ecommercecsharp\\App.razor",
