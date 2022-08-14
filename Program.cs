@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Ecommercecsharp.Data;
+using Ecommercecsharp.Models;
+using Microsoft.EntityFrameworkCore;
+using Ecommercecsharp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
+builder.Services.AddDbContext<ProductDbContext>(options =>
+{
+    options.UseSqlite("Data Source = Products.db");
+});
+builder.Services.AddScoped<ProductServices>();
 
 var app = builder.Build();
 

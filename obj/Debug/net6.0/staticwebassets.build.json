@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ND00cjSSonfztbLi6uQ+KumQ7ozPjQmXIVw+HNE43bo=",
+  "Hash": "DO8mRWmFR1d+JgqE2SQNgg4HrFEe/6h+v6hUbRkTqzc=",
   "Source": "Ecommercecsharp",
   "BasePath": "_content/Ecommercecsharp",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "D:\\code\\Ecommercecsharp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "Ecommercecsharp",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\code\\Ecommercecsharp\\wwwroot\\",
-      "BasePath": "_content/Ecommercecsharp",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\code\\Ecommercecsharp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -202,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "D:\\code\\Ecommercecsharp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "Ecommercecsharp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\code\\Ecommercecsharp\\wwwroot\\",
+      "BasePath": "_content/Ecommercecsharp",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "D:\\code\\Ecommercecsharp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",

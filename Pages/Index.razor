@@ -1,11 +1,20 @@
 ﻿@page "/"
-
+@using Ecommercecsharp.Models
+@inject Services.ProductServices service
 <PageTitle>Home</PageTitle>
 <Ecommercecsharp.components.HomeGallery/>
-<Ecommercecsharp.components.CardList/>
+<Ecommercecsharp.components.CardList ProductList="list"/>
 
 <style>
     body{
         background-color: #EFEFEF;
     }
 </style>
+
+@code{
+    List<ProductAPI> list = new List<ProductAPI>();
+    protected override async Task OnInitializedAsync()
+    {
+        list = await service.GetProdsAPI();
+    }
+}
