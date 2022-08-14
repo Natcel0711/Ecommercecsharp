@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using RestSharp;
 using System.Threading;
+using System.Linq;
 
 namespace Ecommercecsharp.Services
 {
@@ -95,6 +96,12 @@ namespace Ecommercecsharp.Services
             var jsonText = File.ReadAllText("D:\\code\\Ecommercecsharp\\dummydata\\json.json");
             var model = JsonConvert.DeserializeObject<List<ProductAPI>>(jsonText);
             return model;
+        }
+        public async Task<ProductAPI> GetProdByID(int id)
+        {
+            var prods = await GetProdsAPI();
+            var prod = prods.Where(x => x.id == id).FirstOrDefault();
+            return prod;
         }
         #endregion
     }
