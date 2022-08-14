@@ -1,0 +1,14 @@
+﻿@page "/"
+@namespace Ecommercecsharp.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+}
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind via Play CDN</title>
+    <base href="/" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<component type="typeof(App)" render-mode="ServerPrerendered" />
