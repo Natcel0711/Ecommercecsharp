@@ -1,6 +1,6 @@
 ﻿@using Ecommercecsharp.Models
 <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-    <a class="block relative h-48 rounded overflow-hidden">
+    <a class="block relative h-48 rounded overflow-hidden" href=@Direct>
         <img alt="ecommerce" class="object-cover object-center w-full h-full block" src=@product.image>
     </a>
     <div class="mt-4">
@@ -12,4 +12,9 @@
 @code {
     [Parameter]
     public ProductAPI product { get; set; }
+    public string Direct { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        Direct = $"/product/{product.id}";
+    }
 }
